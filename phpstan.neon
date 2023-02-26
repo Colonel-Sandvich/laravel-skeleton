@@ -1,0 +1,20 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    paths:
+        - app/
+        - database/
+
+    # Level 9 is the highest level
+    level: 6
+
+#    ignoreErrors:
+#        -
+#            message: 'Method [a-zA-Z0-9:\\_]+ has no return type specified.#'
+#            path: app/Http/Controllers/*
+#
+#    excludePaths:
+#        - ./*/*/FileToBeExcluded.php
+#
+#    checkMissingIterableValueType: false
